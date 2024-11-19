@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@goan_says_ - Meme Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .instagram-link {
+            color: #0073e6;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .join-us {
+            margin-top: 20px;
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to @goan_says_</h1>
+        <p>Your favorite meme page on Instagram</p>
+    </header>
+
+    <div class="content">
+        <p>Check out our memes and join the fun!</p>
+        <a href="https://www.instagram.com/goan_says_/" class="instagram-link" target="_blank">Follow us on Instagram</a>
+
+        <div class="join-us">
+            <p>Join our community:</p>
+            <button onclick="window.location.href='https://www.instagram.com/goan_says_/'">Follow & Join Us!</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 @goan_says_ | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
